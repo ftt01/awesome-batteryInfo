@@ -46,8 +46,8 @@ function readParameters(adapter)
 end
 
 function batteryLow(sumofbatteries)
-    if sumofbatteries < 15 then
-        naugthy.notify({title = "Battery Warning"
+   if sumofbatteries < 15 then
+        naughty.notify({title = "Battery Warning"
             , text      = "Battery low".." "..sumofbatteries..percent.." ".."left!"
             , timeout   = 5
             , position  = "top_right"
